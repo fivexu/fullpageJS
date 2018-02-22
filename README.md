@@ -12,8 +12,7 @@ npm install fullpages --save
 ## 使用
 
 ```html
-// es5
-<script src="fullpageJS.es5.js"></script>
+<script src="fullpageJS.es5.js"></script> // es5引入方式
 
 <div id="fullpage">
   <div> // 必写内部盒子,为适应无滚动条,没有时将无法运行
@@ -25,7 +24,7 @@ npm install fullpages --save
 </div>
 ```
 ```javascript
-import FullPage from 'fullpages' // es5省略此部
+import FullPage from 'fullpages' // es5略去
 
 let fullpage=new fullPage('#fullpage',{
   isScrollBar:false // 参数填写方式
@@ -54,7 +53,7 @@ let fullpage=new fullPage('#fullpage',{
 ## 回调
 ```javascript
 // 此函数将在滚动时执行
-this.fullpage.on('scroll',(res) => {
+fullpage.on('scroll',(res) => {
   console.log(res)
   // res为一个对象
 })
