@@ -1,10 +1,10 @@
 # 介绍
-* fullpageJS是基于es6开发的组件
-* fullpageJS的大小由父级盒子大小决定所以必须保证其父级盒子充分100%,body,html都要宽高100%
+* fullpages是基于es6开发的组件
+* fullpages的大小由父级盒子大小决定所以必须保证其父级盒子充分100%,body,html都要宽高100%
 * pc,移动端均可使用
 * 组件自行判断终端设备,自适应移动端,并触发touch事件
 * 屏幕大小改变时,组件自行重新渲染设备,适应当前窗口
-* es5语法,请下载后使用fullpageJS.es5.js
+* es5语法,请下载后使用fullpages.es5.js
 ## 安装
 ```cmd
 npm install fullpages --save
@@ -12,7 +12,7 @@ npm install fullpages --save
 ## 使用
 
 ```html
-<script src="fullpageJS.es5.js"></script> // es5引入方式
+<script src="fullpages.es5.js"></script> // es5引入方式
 
 <div id="fullpage">
   <div> // 必写内部盒子,为适应无滚动条,没有时将无法运行
